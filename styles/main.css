@@ -1,3 +1,67 @@
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("../fonts/ClashDisplay-Variable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    background-color: rgb(26, 37, 29)
+    background-color: rgb(26, 43, 31);
+    color: rgb(237, 232, 226);
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+main {
+    width: 600px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    font-family: "ClashDisplay", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+    color: rgb(237, 232, 226);
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+::selection {
+    background: rgb(237, 232, 226);
+    color: rgb(26, 43, 31);
+}
+
+::-moz-selection {
+    background: rgb(237, 232, 226);
+    color: rgb(26, 43, 31);
 }
