@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(26, 43, 31);
+    background-color: rgb(24, 24, 27);
     color: rgb(237, 232, 226);
     font-family: system-ui, sans-serif;
     margin: 0;
@@ -58,10 +58,10 @@ a:hover {
 
 ::selection {
     background: rgb(237, 232, 226);
-    color: rgb(26, 43, 31);
+    color: rgb(24, 24, 27);
 }
 
 ::-moz-selection {
     background: rgb(237, 232, 226);
-    color: rgb(26, 43, 31);
+    color: rgb(24, 24, 27);
 }
